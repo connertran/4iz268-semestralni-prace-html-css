@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.nav-bar {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.nav-bar-link {
+  text-decoration: none;
+}
+.nav-bar-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link-active {
+  color: red;
+  text-decoration: underline;
+}
+.nav-bar ul li {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
