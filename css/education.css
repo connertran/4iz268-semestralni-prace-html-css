@@ -1,0 +1,94 @@
+.page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.education-section {
+  margin: 40px 0;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.education-section:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+/* Table styles */
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.header-cell {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-row {
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: #f8f9fa;
+}
+
+.table-row td {
+  padding: 15px;
+  border-bottom: 1px solid #e9ecef;
+  color: #444;
+}
+
+/* School section specific styles */
+.school-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.degree-name {
+  color: #444;
+}
+
+.year {
+  color: #666;
+}
+
+/* Certificate section specific styles */
+.cert-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.org-name {
+  color: #444;
+}
+
+.date {
+  color: #666;
+}
+
+/* Language section specific styles */
+.language-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.language-level {
+  font-weight: 500;
+  color: #444;
+}

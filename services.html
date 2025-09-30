@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services</title>
     <link rel="stylesheet" href="css/sharing-components.css" />
+    <link rel="stylesheet" href="css/services.css" />
   </head>
   <body>
     <nav class="nav-bar">
@@ -18,31 +19,59 @@
         <li><a class="nav-bar-link" href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <h1>Services</h1>
-    <section>
-      <h2>Skills</h2>
-      <p>
+    <h1 class="page-title">Services</h1>
+
+    <section class="services-section">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-intro">
         Skills in working with multiple web-development technologies and
         frameworks:
       </p>
-      <ul>
-        <li>Languages: HTML, CSS, JavaScript, Python, Java</li>
-        <li>
-          Frameworks and Libraries: React.js, Node.js, Flask, Next.js,
-          Express.js,
-        </li>
-        <li>Databases: PostgreSQL, Oracle, SQLAlchemy, Prisma</li>
-        <li>Testing Libraries: Jest, React Testing Library</li>
-        <li>Version Control: Git, GitHub, GitLab</li>
-        <li>Deployment: Supabase, Vercel, Render</li>
-        <li>
-          Additional Skills: Expirenced in implementing complex algorithms and
-          data structures
-        </li>
-      </ul>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-title">Languages</h3>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-title">Frameworks & Libraries</h3>
+          <ul class="skill-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Flask</li>
+            <li>Next.js</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-title">Databases</h3>
+          <ul class="skill-list">
+            <li>PostgreSQL</li>
+            <li>Oracle</li>
+            <li>SQLAlchemy</li>
+            <li>Prisma</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-title">Development Tools</h3>
+          <ul class="skill-list">
+            <li>Jest & React Testing Library</li>
+            <li>Git, GitHub, GitLab</li>
+            <li>Supabase, Vercel, Render</li>
+            <li>Algorithms & Data Structures</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-      <h2>Software Engineer Position</h2>
-      <article>
+    <section class="services-section">
+      <h2 class="section-title">Software Engineer Position</h2>
+      <div class="service-content">
         <p>
           I am looking for a position in either frontend or backend development.
           With my fullstack skills, I can help the team deliver high-quality
@@ -52,11 +81,17 @@
           If you are looking for a fullstack developer, here is my LinkedIn
           profile.
         </p>
-        <a href="https://www.linkedin.com/in/conner-ducanhtran/">LinkedIn</a>
-      </article>
+        <a
+          href="https://www.linkedin.com/in/conner-ducanhtran/"
+          class="cta-button"
+          >View LinkedIn Profile</a
+        >
+      </div>
+    </section>
 
-      <h2>Software Engineer Tutoring</h2>
-      <article>
+    <section class="services-section">
+      <h2 class="section-title">Software Engineer Tutoring</h2>
+      <div class="service-content">
         <p>
           Besides, trying to build helpful software solutions for different
           app-users, I also love to help others to become a real software
@@ -76,8 +111,10 @@
           If you are interested in learning from me, please book a consultation
           with me.
         </p>
-        <a href="https://calendly.com/conner-tran/15min">Book a consultation</a>
-      </article>
+        <a href="https://calendly.com/conner-tran/15min" class="cta-button"
+          >Book a Consultation</a
+        >
+      </div>
     </section>
   </body>
 </html>

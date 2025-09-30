@@ -1,0 +1,72 @@
+.page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+/* Contact Information */
+.contact-info {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-group {
+  flex: 1;
+}
+
+.contact-section-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+/* Info Items */
+.info-item {
+  margin: 15px 0;
+  color: #444;
+}
+
+.label {
+  font-weight: 500;
+  color: #666;
+  margin-right: 10px;
+}
+
+.contact-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
