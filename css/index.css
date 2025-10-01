@@ -1,3 +1,20 @@
+#index-name {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#index-hello {
+  margin-bottom: 0;
+  color: #1e90ff;
+}
+
+#index-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
 .index-my-photo {
   width: 300px;
   height: 400px;
@@ -30,8 +47,58 @@ article ul li {
   margin-bottom: 10px;
 }
 
+.index-quote-section {
+  border-style: none;
+  padding: 20px 0 20px 0;
+  margin: 40px 0;
+  transition: transform 0.3s ease;
+}
+
+.index-quote-section:hover {
+  transform: translateY(-10px);
+}
+
 #index-quote {
   text-align: center;
   font-style: italic;
-  margin: 40px 0;
+  font-weight: 500;
+  color: #2e2e2ec6;
+}
+#index-quote-author {
+  text-align: center;
+}
+
+.index-high-lights-section {
+  margin-top: 60px;
+  background-color: #d0e3f1b6;
+  padding: 40px 20px 40px 20px;
+  border-radius: 20px;
+}
+
+.index-high-lights-section ul {
+  list-style-type: none;
+  padding: 20px;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.index-high-lights-section ul li {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(146, 144, 144, 0.596);
+  border-radius: 10px;
+  background-color: white;
+  height: 80px;
+  padding: 5px 10px 5px 10px;
+  transition: transform 0.3s ease;
+}
+.index-high-lights-section ul li:hover {
+  transform: translateY(-10px);
+}
+
+#index-high-lights-h2 {
+  text-align: center;
+  margin-bottom: 40px;
 }

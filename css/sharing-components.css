@@ -3,14 +3,26 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  padding-bottom: 40px;
 }
 
 .nav-bar {
   padding: 20px 0;
   margin-bottom: 40px;
+  background-color: #e2f4ff;
+  width: 100%;
+}
+
+.nav-bar .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-bar .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-bar ul {
@@ -27,19 +39,19 @@ body {
   color: #555;
   font-weight: 500;
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: all 0.2s ease;
 }
 
 .nav-bar-link:hover {
-  color: #000;
-  background-color: #f0f0f0;
+  color: white;
+  background-color: #1e90ff;
 }
 
 .link-active {
-  color: #000;
+  color: white;
   font-weight: 600;
-  background-color: #f0f0f0;
+  background-color: #1e90ff;
 }
 
 .nav-bar ul li {
@@ -50,5 +62,11 @@ body {
   text-align: center;
   color: #333;
   margin-bottom: 40px;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
