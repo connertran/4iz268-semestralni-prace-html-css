@@ -4,10 +4,13 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 8px solid #3b82f6;
+  transition: all 0.3s ease;
 }
 
 .experience-section:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .experience-header {
@@ -15,7 +18,10 @@
 }
 
 .experience-header h2 {
-  color: #333;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 15px;
   font-size: 1.8rem;
 }
@@ -67,17 +73,23 @@
 /* Project images */
 .project-images {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 30px;
   margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .project-images img {
-  width: 100%;
-  max-width: 800px;
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
+  object-fit: cover;
 }
 
 .project-images img:hover {
