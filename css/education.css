@@ -17,10 +17,9 @@
   font-size: 1.8rem;
 }
 
-/* Table styles */
 .education-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* share same border- no double border */
   margin-top: 20px;
   background-color: #fff;
 }
@@ -48,7 +47,6 @@
   color: #444;
 }
 
-/* School section specific styles */
 .school-name {
   font-weight: 500;
   color: #333;
@@ -62,7 +60,6 @@
   color: #666;
 }
 
-/* Certificate section specific styles */
 .cert-name {
   font-weight: 500;
   color: #333;
@@ -76,7 +73,6 @@
   color: #666;
 }
 
-/* Language section specific styles */
 .language-name {
   font-weight: 500;
   color: #333;

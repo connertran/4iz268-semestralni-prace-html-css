@@ -4,7 +4,6 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: rgb(249, 250, 251);
-  padding-bottom: 40px;
 }
 
 .nav-bar {
@@ -91,4 +90,55 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.footer-section {
+  background-color: #d0e3f1b6;
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.footer-div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-name {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-social-media-link {
+  color: #1e90ff;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.footer-social-media-link:hover {
+  color: #295eb3;
 }

@@ -1,16 +1,30 @@
 .experience-section {
+  position: relative;
   margin: 40px 0;
   padding: 30px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-left: 8px solid #3b82f6;
+  border-left: 3px solid #3b82f6;
   transition: all 0.3s ease;
 }
 
 .experience-section:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #20b2aa;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .experience-header {
@@ -70,7 +84,6 @@
   margin: 0;
 }
 
-/* Project images */
 .project-images {
   display: flex;
   flex-direction: row;
@@ -96,7 +109,6 @@
   transform: scale(1.02);
 }
 
-/* Projects Section */
 .project-content {
   margin-top: 20px;
 }
@@ -118,7 +130,7 @@
   border-radius: 8px;
 }
 
-/* Video player */
+/* Video imported from wistia */
 wistia-player {
   width: 100%;
   max-width: 800px;

@@ -22,7 +22,6 @@
   margin-bottom: 30px;
 }
 
-/* Skills Grid */
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; /* Simple 4 columns */
@@ -69,19 +68,29 @@
   color: #666;
 }
 
-/* Service Content */
 .service-content {
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
 }
 
-.service-content p {
+.service-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.service-text {
+  flex: 1;
+}
+
+.service-text p {
   margin-bottom: 20px;
   line-height: 1.6;
   color: #444;
 }
 
-/* CTA Buttons */
 .cta-button {
   display: inline-block;
   padding: 12px 24px;
