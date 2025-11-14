@@ -112,8 +112,5 @@ article ul li {
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 40px;
-  background: linear-gradient(135deg, #143795 0%, #203183 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #3b82f6;
 }
