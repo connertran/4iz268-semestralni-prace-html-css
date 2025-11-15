@@ -105,3 +105,61 @@
 .cta-button:hover {
   background-color: #0056b3;
 }
+
+@media screen and (max-width: 800px) and (max-height: 600px) {
+  .services-section {
+    margin: 20px 0;
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .section-intro {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .skill-category {
+    padding: 12px;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+
+  .skill-list li {
+    margin: 6px 0;
+    font-size: 0.85rem;
+    padding-left: 15px;
+  }
+
+  .service-content {
+    gap: 15px;
+  }
+
+  .service-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .service-text p {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+
+  .cta-button {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+}

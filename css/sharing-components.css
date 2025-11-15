@@ -139,3 +139,22 @@ body {
 .footer-social-media-link:hover {
   color: #295eb3;
 }
+
+@media screen and (max-width: 800px) and (max-height: 600px) {
+  .nav-bar ul li {
+    margin: 0 2px;
+  }
+
+  .nav-bar-link {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
+  .nav-bar-logo {
+    font-size: 1rem;
+  }
+
+  .nav-bar-icon {
+    font-size: 1.2rem;
+  }
+}
