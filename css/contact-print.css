@@ -1,0 +1,29 @@
+@media print {
+  body {
+    color: black;
+  }
+  .nav-bar {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .page-title {
+    text-align: left;
+  }
+  .contact-container {
+    box-shadow: none;
+  }
+  .profile-section {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .contact-section-title {
+    border-bottom: none;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

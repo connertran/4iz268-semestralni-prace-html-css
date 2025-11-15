@@ -1,0 +1,70 @@
+@media print {
+  body {
+    color: black;
+  }
+  .nav-bar {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .main-content {
+    padding: 0;
+    margin: 0;
+  }
+  .page-title {
+    text-align: left;
+  }
+  .education-section {
+    margin: 20px 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .section-title {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  .header-cell {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #000;
+  }
+  .table-row {
+    background-color: white;
+  }
+  .table-row:hover {
+    background-color: white;
+  }
+  .table-row td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    color: black;
+  }
+  .school-name,
+  .cert-name,
+  .language-name {
+    color: black;
+  }
+  .degree-name,
+  .org-name,
+  .language-level {
+    color: black;
+  }
+  .year,
+  .date {
+    color: black;
+  }
+}

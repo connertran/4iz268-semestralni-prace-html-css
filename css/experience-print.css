@@ -1,0 +1,43 @@
+@media print {
+  body {
+    color: black;
+  }
+  .nav-bar {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .project-images {
+    display: none;
+  }
+  img {
+    display: none;
+  }
+  .project-demo {
+    display: none;
+  }
+  .experience-badge {
+    display: none;
+  }
+  .experience-section {
+    border: none;
+    border-left: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: white;
+  }
+  .experience-header {
+    margin-bottom: 10px;
+  }
+  .experience-header h2 {
+    margin-bottom: 5px;
+  }
+  .experience-content {
+    display: block;
+    gap: 0;
+  }
+  .company-logo {
+    display: none;
+  }
+}

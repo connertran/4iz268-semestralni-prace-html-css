@@ -1,2 +1,38 @@
 @media print {
+  body {
+    color: black;
+  }
+  home-hero-section {
+    background-color: white;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .hero-btn {
+    border: 1px solid black;
+  }
+  #get-started-btn {
+    color: black;
+  }
+
+  .why-choose-me-feature p {
+    color: black;
+  }
+
+  footer {
+    display: none;
+  }
+  .why-choose-me-section {
+    margin-bottom: 0;
+  }
+  .home-packages-section {
+    padding: 0;
+  }
+  .package-btn {
+    color: black;
+    border: 1px solid black;
+  }
+  .package-features li {
+    color: black;
+  }
 }
