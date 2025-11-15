@@ -16,7 +16,7 @@
     text-align: left;
   }
   .services-section {
-    margin: 80px 0;
+    margin: 20px 0;
     padding: 0;
     background-color: white;
     box-shadow: none !important;
@@ -26,22 +26,40 @@
   .section-title {
     color: black;
     margin-bottom: 10px;
+    font-size: 1.4rem;
+  }
+  .section-intro {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
   }
   .skills-grid {
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 10px;
   }
   .skill-category {
     background-color: white;
     border: 1px solid black;
     border-radius: 0;
-    padding: 15px;
+    padding: 10px;
+    page-break-inside: avoid;
   }
   .skill-title {
     color: black;
     border-bottom: 1px solid black;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+  }
+  .skill-list {
+    margin: 0;
+    padding: 0;
   }
   .skill-list li {
     color: black;
+    margin: 4px 0;
+    font-size: 0.85rem;
+    padding-left: 15px;
   }
   .service-image {
     display: none;

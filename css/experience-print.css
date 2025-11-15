@@ -23,9 +23,12 @@
   .experience-section {
     border: none;
     border-left: none;
-    box-shadow: none;
+    box-shadow: none !important;
     border-radius: 0;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
   }
   .experience-header {
     margin-bottom: 10px;
