@@ -1,5 +1,6 @@
 .contact-container {
   max-width: 800px;
+  width: 800px;
   margin: 0 auto;
   padding: 30px;
   background-color: #fff;
@@ -65,5 +66,9 @@
 @media screen and (max-width: 800px) and (max-height: 600px) {
   #contact-main-content {
     margin-bottom: 80px;
+  }
+  .contact-container {
+    max-width: 800px;
+    width: 90%;
   }
 }
